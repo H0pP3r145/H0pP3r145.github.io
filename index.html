@@ -13,30 +13,23 @@
           alt="Тут моя фоточка"
           id="avatar"
         />
-        <h1>Сорокин Дмитрий</h1>
-        <p>
-          Я пока что учусь кодить на html и css, но python, c# и c++ я знаю очень хорошо и
-          могу спокойно кодить
-        </p>
-        <p>
-          <strong>
-            Я люблю путешествовать, кодить и программировать, а так же увлекаюсь дизайном
-            cgi и ux, ui
-          </strong>
-        </p>
-        <h4>Мои социальные сети:</h4>
+        <div class="info-text">
+          <h1>Сорокин Дмитрий</h1>
+          <p>Я пока что учусь кодить на html и css, но python, c# и c++ я знаю очень хорошо и могу спокойно кодить</p>
+          <p>
+            <strong>Я люблю путешествовать, кодить и программировать, а так же увлекаюсь дизайном cgi и ux, ui</strong>
+          </p>
+          <h4>Мои социальные сети:</h4>
 
-        <a href="https://www.instagram.com/dima14585/?hl=ru" target="_blank">Instagram</a>
-        |
-        <a href="https://t.me/H0pP3r" target="_blank">Telegram</a>
-        |
-        <a href="https://www.pinterest.ru/H0pP3r_design_2021/_created/" target="_blank">
-          Pinterest
-        </a>
-        |
-        <a href="https://vk.com/idi_nahui145" target="_blank">VK</a>
+          <a href="https://www.instagram.com/dima14585/?hl=ru" target="_blank">Instagram</a>
+          |
+          <a href="https://t.me/H0pP3r" target="_blank">Telegram</a>
+          |
+          <a href="https://www.pinterest.ru/H0pP3r_design_2021/_created/" target="_blank">Pinterest</a>
+          |
+          <a href="https://vk.com/idi_nahui145" target="_blank">VK</a>
+        </div>
       </div>
-
       <div class="card bg-yellow">
         <h2>Мои хобби:</h2>
         <ol class="list">
@@ -47,7 +40,23 @@
       </div>
       <div class="card bg-green">
         <h2>Мои работы</h2>
-        <h4><a href="works.html">Посмотреть работы</a></h4>
+        <ul class="link-list">
+          <li>
+            <a href="https://github.com/H0pP3r145">
+              <strong>Мой профиль на github</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/otborniy_SOK" target="_blank">
+              <strong>Телеграмм канал "Отборный сок"</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.ru/H0pP3r_design_2021" target="_blank">
+              <strong>H0pP3r145 Pinterest</strong>
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="card bg-red">
         <h2>Мой опыт работы</h2>
@@ -76,25 +85,29 @@
           </tbody>
         </table>
       </div>
-      <h2>Связаться со мной</h2>
-      <form>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите ваше Имя..." />
-        <br />
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Ваш email..." />
-        <br />
-        <label for="tel">Ваш номер:</label>
-        <input type="tel" id="tel" placeholder="Ваш номер телефона..." />
-        <br />
-        <label for="pass">Ваш пароль:</label>
-        <input type="password" id="pass" placeholder="Ваш пароль:" />
-        <br />
-        <input type="checkbox" id="check" />
-        <label for="check">Я согласен на продажу жизни своей</label>
-        <br />
-        <input type="submit" value="Связаться" />
-      </form>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше Имя..." />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш Email:</label>
+              <input type="email" id="email" placeholder="Ваш email..." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+            <textarea id="text" cols="15" rows="2"></textarea>
+          </div>
+          <input type="checkbox" id="check" />
+          <label for="check">Я согласен на продажу жизни своей</label>
+          <br />
+          <input type="submit" value="Связаться" />
+        </form>
+      </div>
     </div>
     <div style="margin-bottom: 500px"></div>
   </body>
