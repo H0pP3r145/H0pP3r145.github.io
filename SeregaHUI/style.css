@@ -32,3 +32,17 @@ a {
   padding-top: 100px;
   text-align: center;
 }
+
+.posil {
+  background-color: rgba(45, 134, 250, 0.795);
+  border-radius: 20px;
+  margin: 50px 50px;
+  padding: 10px;
+  box-shadow: -1px 9px 7px 0px #6e6e6e;
+}
+
+#poslanie {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
