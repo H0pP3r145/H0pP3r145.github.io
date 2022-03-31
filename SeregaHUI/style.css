@@ -46,3 +46,30 @@ a {
   font-size: 30px;
   color: white;
 }
+
+.spacibo {
+  background-color: rgba(0, 255, 136, 0.795);
+  border-radius: 20px;
+  margin: 50px 50px;
+  padding: 10px;
+  box-shadow: -1px 9px 7px 0px #6e6e6e;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#Serega {
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: auto auto;
+  padding: 15px;
+}
+#podpis {
+  text-align: center;
+  background-color: rgb(255, 209, 83);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 40px;
+  box-shadow: -1px 9px 7px 0px #6e6e6e;
+  margin: auto 200px;
+}
